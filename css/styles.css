@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     color: #434455;
     background-color: #fff;
@@ -23,7 +23,7 @@ ul {
     letter-spacing: 1.12px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -35,7 +35,7 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .header-logo {
     color: #4d5ae5;
@@ -85,6 +85,7 @@ ul {
 
 .solution-button {
     color: #FFF;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
@@ -95,7 +96,7 @@ ul {
 }
 
 .solution-button:hover, .solution-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .benefits-content-title {
