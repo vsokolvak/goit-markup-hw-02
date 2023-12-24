@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #434455;
     background-color: #fff;
@@ -13,13 +13,13 @@ ul {
     list-style-type: none;
 }
 
-h1 {
+.mazafaka {
     color: #FFF;
     text-align: center;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -38,18 +38,18 @@ h1 {
 }
 
 .header-logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .color-blue {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-nav-href {
@@ -58,6 +58,17 @@ h1 {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.header-nav-href:hover, 
+.header-nav-href:focus, 
+.header-addres-href:hover,
+.header-addres-href:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .header-addres-href {
@@ -75,10 +86,16 @@ h1 {
 .solution-button {
     color: #FFF;
     font-style: normal;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
+    cursor: pointer;
+}
+
+.solution-button:hover, .solution-button:focus {
+    color: #404BBF;
 }
 
 .benefits-content-title {
@@ -107,15 +124,18 @@ h1 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.team-item {
+    background: #FFFFFF;
 }
 
 .team-list-title {
     color: #2E2F42;
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -137,7 +157,7 @@ h1 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -163,14 +183,18 @@ h1 {
 }
 
 .footer-logo {
-    color: #F4F4FD;
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+.color-white {
+    color: #f4f4fd;
 }
 
 .pagefooter-text {
